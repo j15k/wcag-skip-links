@@ -10,10 +10,14 @@
 
 * [About](#about)
 * [Usage](#usage)
+  * [HTML](#html)
+  * [CSS](#css)
+  * [Link text](#link-text)
+* [Example](#example)
 * [Documentation](#documentation)
-	* [Introduction to WCAG](#introduction-to-wcag)
-	* [Official documentation](#official-documentation)
-	* [Other resources](#other-resources)
+  * [Introduction to WCAG](#introduction-to-wcag)
+  * [Official documentation](#official-documentation)
+  * [Other resources](#other-resources)
 * [Mirrors](#mirrors)
 * [Warranty and Liability](#warranty-and-liability)
 * [Licenses](#licenses)
@@ -34,6 +38,10 @@ Skip links help people, who navigate sequentially through content, to access the
 
 ## Usage
 
+Create Skip links by following the instructions below. 
+
+### HTML
+
 1. Place a HTML skip link on all of your Web pages, ideally before any other content. E.g.:
 
 ```html
@@ -50,12 +58,15 @@ Skip links help people, who navigate sequentially through content, to access the
 …
 ```
 
-3. Add the following to your Cascading Style Sheets (CSS):
+
+### CSS
+
+Add the following to your Cascading Style Sheets (CSS):
 
 ```CSS
 /* Hide visually but not from screen readers */
 
-.visuallyhidden {
+.visually-hidden {
   border: 0;
   clip: rect(0 0 0 0);
   height: 1px;
@@ -69,8 +80,8 @@ Skip links help people, who navigate sequentially through content, to access the
 
 /* Allow the Skip link to be focusable when navigated to via the keyboard */
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
+.visually-hidden.focusable:active,
+.visually-hidden.focusable:focus {
   clip: auto;
   height: auto;
   margin: 0;
@@ -80,7 +91,7 @@ Skip links help people, who navigate sequentially through content, to access the
   width: auto;
   }
 
-.skip-link.visuallyhidden.focusable:focus {
+.skip-link.visually-hidden.focusable:focus {
   background: #ffffff;
   color: #000000;
   left: 5px;
@@ -92,7 +103,17 @@ Skip links help people, who navigate sequentially through content, to access the
   }
 ```
 
-4. Set up translations. The translation table, `international-skip-link_link-texts.csv`, uses the **ISO 639-1 Code** and **ISO 639-2/B Code** to identify 28 languages. Feel free to help with translation!
+
+### Link text 
+
+Set up translations. The translation table, `international-skip-link_link-texts.csv`, uses the **ISO 639-1 Code** and **ISO 639-2/B Code** language codes to identify ~28 languages. Help with translations is appreciated.
+
+
+## Example
+
+You can the example implementation by use the `Tab` key to navigate the [rendered version](https://htmlpreview.github.io/?https://github.com/jonasjacek/wcag-skip-links/blob/master/skip-link-example.html) of the example `skip-link-example.html`. 
+
+You can find the file itself on [GitLab](https://gitlab.com/jonasjacek/wcag-skip-links/-/blob/master/skip-link-example.html) and [GitHub](https://github.com/jonasjacek/wcag-skip-links/blob/master/skip-link-example.html).
 
 
 ## Documentation
