@@ -1,4 +1,4 @@
-# Responsive Images
+# WCAG Skip Links
 
 **Translated W3C WCAG conformant skip links.**
 
@@ -9,6 +9,7 @@
 <!-- vim-markdown-toc GFM -->
 
 * [About](#about)
+* [Skip Links](#skip-links)
 * [Documentation](#documentation)
   * [Introduction to WCAG](#introduction-to-wcag)
   * [Official documentation](#official-documentation)
@@ -29,6 +30,11 @@ The [Web Content Accessibility Guidelines (WCAG)]() are part of a series of web 
 Skip links are a mechanism to bypass blocks of content that are repeated on multiple Web pages ([WCAG Success Criterion 2.4.1 Bypass Blocks](https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks.html)).
 
 Skip links help people, who navigate sequentially through content, to access the primary content of a Web page more directly. Skip links help to skip repeated blocks of content like logos and navigation links.
+
+
+## Skip Links
+
+The translation table, `international-skip-link_link-texts.csv`, uses the **ISO 639-1 Code** and **ISO 639-2/B Code** to identify 28 languages. Feel free to help with translation!
 
 
 ## Documentation
