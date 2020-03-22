@@ -121,6 +121,7 @@ You can find the file itself on [GitLab](https://gitlab.com/jonasjacek/wcag-skip
 
 * https://www.w3.org/WAI/standards-guidelines/wcag/
 * https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG
+* https://www.jonas.me/talks/introduction-to-the-web-content-accessibility-guidelines/ (HTML slides show, 6.5 MB)
 
 ### Official documentation
 * https://www.w3.org/TR/WCAG21/
