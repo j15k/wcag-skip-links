@@ -17,7 +17,6 @@
 * [Documentation](#documentation)
   * [Introduction to WCAG](#introduction-to-wcag)
   * [Official documentation](#official-documentation)
-  * [Other resources](#other-resources)
 * [Mirrors](#mirrors)
 * [Warranty and Liability](#warranty-and-liability)
 * [Licenses](#licenses)
@@ -120,6 +119,7 @@ You can find the file itself on [GitLab](https://gitlab.com/jonasjacek/wcag-skip
 
 ### Introduction to WCAG
 
+* https://www.w3.org/WAI/standards-guidelines/wcag/
 * https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG
 
 ### Official documentation
@@ -127,9 +127,6 @@ You can find the file itself on [GitLab](https://gitlab.com/jonasjacek/wcag-skip
 * https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html
 * https://www.w3.org/TR/WCAG20-TECHS/G1
 
-### Other resources
-* https://webaim.org/techniques/skipnav/
-* https://www.jimthatcher.com/skipnav.htm
 
 ---
 
