@@ -111,7 +111,7 @@ Set up translations. The translation table, `international-skip-link_link-texts.
 
 ## Example
 
-You can the example implementation by use the `Tab` key to navigate the [rendered version](https://htmlpreview.github.io/?https://github.com/jonasjacek/wcag-skip-links/blob/master/skip-link-example.html) of the example `skip-link-example.html`. 
+You can inspect the example implementation by using the `Tab` key to navigate the [rendered version](https://htmlpreview.github.io/?https://github.com/jonasjacek/wcag-skip-links/blob/master/skip-link-example.html) of the example `skip-link-example.html`. 
 
 You can find the file itself on [GitLab](https://gitlab.com/jonasjacek/wcag-skip-links/-/blob/master/skip-link-example.html) and [GitHub](https://github.com/jonasjacek/wcag-skip-links/blob/master/skip-link-example.html).
 
