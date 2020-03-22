@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Skip link example</title>
+    <meta name="viewport" content="width=device-width">
+    <style>
+      /* Hide visually but not from screen readers */
+
+      .visually-hidden {
+        border: 0;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+        }
+
+      /* Allow the Skip link to be focusable when navigated to via the keyboard */
+
+      .visually-hidden.focusable:active,
+      .visually-hidden.focusable:focus {
+        clip: auto;
+        height: auto;
+        margin: 0;
+        overflow: visible;
+        position: static;
+        white-space: inherit;
+        width: auto;
+        }
+
+      .skip-link.visually-hidden.focusable:focus {
+        background: #ffffff;
+        color: #000000;
+        left: 5px;
+        outline: none;
+        padding: 0 5px;
+        top: 0;
+        width: auto;
+        z-index: 99999;
+        }
+    </style>
+  </head>
+  <body>
+    <a href="#main-content" class="visually-hidden focusable skip-link">Skip to main content</a>
+    <nav>
+      <ul>
+        <li><a href="#">Link</a>
+          <ul>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Link</a>
+          <ul>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Link</a>
+          <ul>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Link</a>
+          <ul>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Link</a>
+          <ul>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Link</a>
+          <ul>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Link</a>
+          <ul>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Link</a>
+          <ul>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Link</a>
+          <ul>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Link</a>
+          <ul>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <main id="main-content">
+      <h1>Skip links example</h1>
+      <p>Use the <code>Tab</code> key to test this.</p>
+    </main>
+  </body>
+</html>
