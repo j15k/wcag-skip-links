@@ -1,6 +1,6 @@
 # WCAG Skip Links
 
-**Translated W3C WCAG conformant skip links.**
+**Translated WCAG conformant skip links.**
 
 ---
 
@@ -9,11 +9,11 @@
 <!-- vim-markdown-toc GFM -->
 
 * [About](#about)
-* [Skip Links](#skip-links)
+* [Usage](#usage)
 * [Documentation](#documentation)
-  * [Introduction to WCAG](#introduction-to-wcag)
-  * [Official documentation](#official-documentation)
-  * [Other resources](#other-resources)
+	* [Introduction to WCAG](#introduction-to-wcag)
+	* [Official documentation](#official-documentation)
+	* [Other resources](#other-resources)
 * [Mirrors](#mirrors)
 * [Warranty and Liability](#warranty-and-liability)
 * [Licenses](#licenses)
@@ -32,9 +32,67 @@ Skip links are a mechanism to bypass blocks of content that are repeated on mult
 Skip links help people, who navigate sequentially through content, to access the primary content of a Web page more directly. Skip links help to skip repeated blocks of content like logos and navigation links.
 
 
-## Skip Links
+## Usage
 
-The translation table, `international-skip-link_link-texts.csv`, uses the **ISO 639-1 Code** and **ISO 639-2/B Code** to identify 28 languages. Feel free to help with translation!
+1. Place a HTML skip link on all of your Web pages, ideally before any other content. E.g.:
+
+```html
+<body>
+  <a href="#main-content" class="visually-hidden focusable skip-link">Skip to main content</a>
+  …
+```
+
+2. Add `id="main-content"` attribute to an HTML element, that marks the beginning of the main content. E.g.:
+
+```html
+…
+<main id="main-content">
+…
+```
+
+3. Add the following to your Cascading Style Sheets (CSS):
+
+```CSS
+/* Hide visually but not from screen readers */
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  }
+
+/* Allow the Skip link to be focusable when navigated to via the keyboard */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+  }
+
+.skip-link.visuallyhidden.focusable:focus {
+  background: #ffffff;
+  color: #000000;
+  left: 5px;
+  outline: none;
+  padding: 0 5px;
+  top: 0;
+  width: auto;
+  z-index: 99999;
+  }
+```
+
+4. Set up translations. The translation table, `international-skip-link_link-texts.csv`, uses the **ISO 639-1 Code** and **ISO 639-2/B Code** to identify 28 languages. Feel free to help with translation!
 
 
 ## Documentation
