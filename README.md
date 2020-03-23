@@ -93,9 +93,8 @@ Add the following to your Cascading Style Sheets (CSS):
 .skip-link.visually-hidden.focusable:focus {
   background: #ffffff;
   color: #000000;
-  left: 5px;
-  outline: none;
-  padding: 0 5px;
+  left: .2em;
+  padding: .1em 2em;
   top: 0;
   width: auto;
   z-index: 99999;
