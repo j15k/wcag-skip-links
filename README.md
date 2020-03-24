@@ -104,7 +104,7 @@ Add the following to your Cascading Style Sheets (CSS):
 
 ### Link text 
 
-Set up translations. The translation table, `international-skip-link_link-texts.csv`, uses the **ISO 639-1 Code** and **ISO 639-2/B Code** language codes to identify ~28 languages. Help with translations is appreciated.
+Set up translations. The translation table, `international-skip-link_link-texts.csv`, uses the **ISO 639-1** and **ISO 639-2/B** language codes to identify ~28 languages. Help with translations is appreciated.
 
 
 ## Example
