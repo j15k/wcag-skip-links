@@ -1,6 +1,6 @@
 # WCAG Skip Links
 
-**Translated Web Content Accessibility Guidelines (WCAG) conformant, accessible yet invisible skip links.**
+**Translated Web Content Accessibility Guidelines (WCAG) conformant, accessible - yet invisible - skip links.**
 
 ---
 
