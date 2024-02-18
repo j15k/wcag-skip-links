@@ -17,7 +17,6 @@
 * [Documentation](#documentation)
   * [Introduction to WCAG](#introduction-to-wcag)
   * [Official documentation](#official-documentation)
-* [Mirrors](#mirrors)
 * [Warranty and Liability](#warranty-and-liability)
 * [Licenses](#licenses)
 * [Contribute](#contribute)
@@ -109,9 +108,9 @@ Set up translations. The translation table, `international-skip-link_link-texts.
 
 ## Example
 
-You can inspect the example implementation by using the `Tab` key to navigate the [rendered version](https://htmlpreview.github.io/?https://github.com/jonasjacek/wcag-skip-links/blob/master/skip-link-example.html) of the example `skip-link-example.html`. 
+You can inspect the example implementation by using the `Tab` key to navigate the [rendered version](https://htmlpreview.github.io/?https://github.com/j15k/wcag-skip-links/blob/master/skip-link-example.html) of the example `skip-link-example.html`. 
 
-You can find the file itself on [GitLab](https://gitlab.com/jonasjacek/wcag-skip-links/-/blob/master/skip-link-example.html) and [GitHub](https://github.com/jonasjacek/wcag-skip-links/blob/master/skip-link-example.html).
+You can find the file itself on [GitHub](https://github.com/j15k/wcag-skip-links/blob/master/skip-link-example.html).
 
 
 ## Documentation
@@ -120,7 +119,6 @@ You can find the file itself on [GitLab](https://gitlab.com/jonasjacek/wcag-skip
 
 * https://www.w3.org/WAI/standards-guidelines/wcag/
 * https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG
-* https://www.jonas.me/talks/introduction-to-the-web-content-accessibility-guidelines/ (HTML slide show, 6.5 MB)
 
 ### Official documentation
 * https://www.w3.org/TR/WCAG21/
@@ -130,14 +128,6 @@ You can find the file itself on [GitLab](https://gitlab.com/jonasjacek/wcag-skip
 
 ---
 
-## Mirrors
-
-You can find this repository at:
-* GitLab  
-  [https://gitlab.com/jonasjacek/wcag-skip-links](https://gitlab.com/jonasjacek/wcag-skip-links)
-* GitHub  
-  [https://github.com/jonasjacek/wcag-skip-links](https://github.com/jonasjacek/wcag-skip-links)
-
 
 ## Warranty and Liability
 [Responsive Images](https://gitlab.com/jonasjacek/wcag-skip-links) is a small, private project. The author makes absolutely no claims and representations to warranties regarding the accuracy or completeness of the information provided. However, you can use the information in this repository AT YOUR OWN RISK.
@@ -145,8 +135,8 @@ You can find this repository at:
 
 ## Licenses
 
-<p xmlns:dct="http://purl.org/dc/terms/"><a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/"><img src="http://i.creativecommons.org/p/mark/1.0/88x31.png" style="border-style: none;" alt="Public Domain Mark"></a><br>This work (<span property="dct:title">WCAG skip links</span>, by <a href="https://gitlab.com/jonasjacek/wcag-skip-links" rel="dct:creator"><span property="dct:title" title="Jonas Jared Jacek">Jonas Jacek</span></a>), identified by <a href="https://www.jonas.me/" rel="dct:publisher"><span property="dct:title" title="Jonas Jared Jacek">Jonas Jacek</span></a>, is free of known copyright restrictions.</p>
+<p xmlns:dct="http://purl.org/dc/terms/"><a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/"><img src="http://i.creativecommons.org/p/mark/1.0/88x31.png" style="border-style: none;" alt="Public Domain Mark"></a><br>This work (<span property="dct:title">WCAG skip links</span>, by <a href="https://gitlab.com/j15k/wcag-skip-links" rel="dct:creator"><span property="dct:title" title="Jonas Jared Jacek">Jonas Jacek</span></a>), identified by <a href="https://www.j15k.com/" rel="dct:publisher"><span property="dct:title" title="Jonas Jared Jacek">Jonas Jacek</span></a>, is free of known copyright restrictions.</p>
 
 ## Contribute
 
-Found a mistake? [Open an issue](https://gitlab.com/jonasjacek/wcag-skip-links/-/issues) or [send a merge request](https://gitlab.com/jonasjacek/wcag-skip-links/-/merge_requests). Want to help in another way? [Contact me](https://www.jonas.me/contact).
+Found a mistake? Open an issue or send a merge request. Want to help in another way? [Contact me](https://www.j15k.com/contact).
