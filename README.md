@@ -130,7 +130,7 @@ You can find the file itself on [GitHub](https://github.com/j15k/wcag-skip-links
 
 
 ## Warranty and Liability
-[Responsive Images](https://gitlab.com/jonasjacek/wcag-skip-links) is a small, private project. The author makes absolutely no claims and representations to warranties regarding the accuracy or completeness of the information provided. However, you can use the information in this repository AT YOUR OWN RISK.
+[Responsive Images](https://gitlab.com/j15k/wcag-skip-links) is a small, private project. The author makes absolutely no claims and representations to warranties regarding the accuracy or completeness of the information provided. However, you can use the information in this repository AT YOUR OWN RISK.
 
 
 ## Licenses
